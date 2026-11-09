@@ -11,3 +11,11 @@ pytest==9.2.0
 python-dotenv==1.2.4
 SQLAlchemy==2.1.8
 typing_extensions==4.16.0
+fastapi
+uvicorn[standard]
+python-jose[cryptography]
+argon2-cffi
+python-multipart
+email-validator
+anthropic
+pillow

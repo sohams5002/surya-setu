@@ -24,3 +24,35 @@ dist/
 
 # OS
 .DS_Store
+# Python
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Environment secrets
+.env
+.env.*
+!.env.example
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+
+# Uploads
+backend/uploads/
+uploads/
+
+# Frontend
+node_modules/
+frontend/node_modules/
+frontend/dist/
+
+# Editor and OS
+.vscode/
+.idea/
+.DS_Store
+
+# Logs
+*.log

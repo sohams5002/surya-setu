@@ -31,3 +31,6 @@ APP_ENV = os.getenv("APP_ENV", "development")
 # Application settings
 GENERATION_PER_KW = 1400
 DEFAULT_SCORE_THRESHOLD = 1000
+
+SECRET_KEY = os.getenv("SECRET_KEY", "dev-only-change-this-secret")
+ACCESS_TOKEN_EXPIRE_MINUTES = 60 * 24

@@ -34,6 +34,7 @@ def test_all_database_tables_registered():
         "quotes",
         "projects",
         "stage_history",
+        "tariff_slabs",
         "messages_log"
     }
 
